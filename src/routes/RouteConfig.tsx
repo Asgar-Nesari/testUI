@@ -1,9 +1,11 @@
 import { lazy, Suspense } from "react";
-import WebsiteLayout from "@/layouts/WebsiteLayout";
-import { useRoutes } from "react-router-dom";
-import LoadingSpinner from "@/container/LoadingSpinner";
 
-const Home = lazy(() => import("@/pages/home/Home"));
+import { useRoutes } from "react-router-dom";
+import LoadingSpinner from "../container/LoadingSpinner";
+import WebsiteLayout from "../layouts/WebsiteLayout";
+
+
+const Home = lazy(() => import("../pages/home/Home"));
 
 const combinedRoutes = [
   {
