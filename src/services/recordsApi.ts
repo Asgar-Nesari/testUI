@@ -2,7 +2,8 @@ import axios from 'axios';
 import type { RecordRequest, RecordResponse } from '../types/record';
 
 
-const BASE = '/api/records';
+// const BASE = '/api/records';
+const BASE = `${import.meta.env.VITE_API_URL}/api/records`;
 
 export const recordsApi = {
   getAll: async (): Promise<RecordResponse[]> => {

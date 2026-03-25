@@ -22,7 +22,7 @@ export default function RecordCard({ record, index, onEdit, onDelete }: Props) {
         hover:border-acid/40 transition-all duration-300 hover:shadow-lg hover:shadow-acid/5 animate-slide-up"
       style={{ animationDelay: `${index * 60}ms`, animationFillMode: 'both', opacity: 0 }}
     >
-      <div className="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-acid/30 to-transparent
+      <div className="absolute top-0 left-6 right-6 h-px bg-linear-to-r from-transparent via-acid/30 to-transparent
         opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
       <div className="flex items-start justify-between gap-3">
