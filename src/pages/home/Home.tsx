@@ -325,7 +325,7 @@ export default function Home() {
               <button
                 onClick={openCreate}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl
-                  bg-linear-to-r from-amber-400 to-amber-500
+                  bg-linear-to-r from-blue-400 to-blue-500
                   text-slate-900 font-bold text-sm
                   hover:from-amber-300 hover:to-amber-400
                   transition-all duration-200
