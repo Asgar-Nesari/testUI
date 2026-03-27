@@ -56,7 +56,7 @@ function RecordCard({
         opacity-0 group-hover:opacity-100 transition-opacity duration-500"
       />
 
-      {/* Glow */}
+    
       <div
         className="absolute -top-10 -left-10 w-32 h-32 bg-amber-400/5 rounded-full blur-2xl
         opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
